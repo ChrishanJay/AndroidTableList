@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+     <TextView
+         android:id="@+id/dealname"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@android:color/black"
+         android:paddingLeft="10dp"
+         android:shadowColor="#000000"
+         android:shadowDx="0.5"
+         android:shadowDy="0.5"
+         android:shadowRadius="1"
+         android:text="@string/menu_settings"
+         android:textColor="@android:color/white"
+         android:textSize="18dp"
+         android:textStyle="bold" />
+    
+</LinearLayout>
+
+
+   

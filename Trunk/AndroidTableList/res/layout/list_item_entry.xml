@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/list_item_entry_title"
+          android:layout_width="fill_parent"
+          android:layout_height="40dp"
+          android:layout_marginLeft="10dp"
+          android:background="@android:color/white"
+          android:ellipsize="marquee"
+          android:fadingEdge="horizontal"
+          android:gravity="center_vertical"
+          android:lines="1"
+          android:paddingBottom="5dp"
+          android:paddingLeft="10dp"
+          android:paddingTop="5dp"
+          android:text="@string/menu_settings"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="@android:color/black"
+          android:textStyle="bold" />
+
