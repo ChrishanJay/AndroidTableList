@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
@@ -86,11 +87,10 @@ public class List extends ListActivity {
 			String index_letter = rest_index.get(i).toString();
 			TextView tv = new TextView(getApplicationContext());
 			tv.setText(index_letter);
-			tv.setGravity(Gravity.CENTER);
-			tv.setTextSize(5);
-			tv.setTextColor(getResources().getColor(android.R.color.black));
+			tv.setGravity(Gravity.CENTER);			
 			tv.setTextAppearance(getApplicationContext(), android.R.style.TextAppearance_Small);
-
+			tv.setTextColor(getResources().getColor(android.R.color.black));
+			
 			LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, 0.5f);
 			tv.setLayoutParams(params);
 			sideIndex.addView(tv);
@@ -156,17 +156,7 @@ public class List extends ListActivity {
 
 						
 						public void onClick(View v) {
-//							Log.i(getContext().getPackageName(), "Onclick : " + i.getId());
-//							YumActivity.rest_id = i.getId();
-//							if (YumActivity.backtomap) {
-//								startActivity(new Intent(getApplicationContext(), Map.class).putExtra("rest", true));
-//
-//							}
-//							else {
-//
-//								Intent restaurant_deals = new Intent(RestaurantSearch.this, RestaurantDeals.class);
-//								startActivity(restaurant_deals);
-//							}
+							Toast.makeText(getApplicationContext(), s, Toast.LENGTH_LONG).show();
 
 						}
 					});
