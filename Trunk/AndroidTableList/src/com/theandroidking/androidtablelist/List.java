@@ -22,6 +22,13 @@ import android.widget.TextView;
 
 public class List extends ListActivity {
 	
+	
+	/*
+	 * Copyrights @ Chrishan Jayakody
+	 * Chrishan1989@gmail.com
+	 * www.theandroidking.com
+	 * */
+	
 	EditText type;
 	//private ArrayList<String> restaurants = new ArrayList<String>();
 	ArrayList<String> grouped , temp;

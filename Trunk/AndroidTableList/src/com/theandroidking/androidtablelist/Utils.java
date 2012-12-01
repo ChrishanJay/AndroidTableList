@@ -7,6 +7,13 @@ import java.util.Set;
 
 public class Utils {
 	
+	
+	/*
+	 * Copyrights @ Chrishan Jayakody
+	 * Chrishan1989@gmail.com
+	 * www.theandroidking.com
+	 * */
+	
 	public static ArrayList<String> groupCountries(ArrayList<String> r, ArrayList<String> index) {
 		
 		ArrayList<String> array_sort = new ArrayList<String>();
